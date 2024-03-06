@@ -212,12 +212,10 @@ ul.row {
   left: var(--header-logo-link-left);
 }
 /* BEGIN: Edit the nav-item-link-hover property */
-.nav-item-link:hover {
+/* .nav-item-link:hover {
     color: var(--color-white);
-}
-/* END: Edit the nav-item-link-hover property */
+} */
 
-/* BEGIN: Target the before pseudo elements of nav-link that is inside the nav */
 nav .nav-link::before {
     content: "";
     position: absolute;
@@ -227,14 +225,10 @@ nav .nav-link::before {
     width: 0;
     height: 20%;
 }
-/* END: Target the before pseudo elements of nav-link that is inside the nav */
-
-/* BEGIN: Target the before pseudo elements of nav-link when nav-item is hover and is inside nav */
 nav .nav-item:hover .nav-link::before {
     background-color: var(--color-primary);
     width: 100%;
 }
-/* END: Target the before pseudo elements of nav-link when nav-item is hover and is inside nav */
 
 :root {
   --color-primary: #1a1415;
