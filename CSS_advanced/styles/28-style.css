@@ -198,14 +198,14 @@ ul.row {
   background: var(--color-black);
   --button-color: var(--color-white);
 }
-header {
+.header {
   padding: var(--header-padding);
 }
 .header-logo {
   position: var(--header-logo-position);
 }
 
-.header-logo li {
+.header-logo a {
   display: var(--header-logo-link-display);
   position: var(--header-logo-link-position);
   top: var(--header-logo-link-top);
@@ -213,7 +213,7 @@ header {
 }
 
 :root {
-  --color-primary: #d73953;
+  --color-primary: #1a1415;
   --color-black: #090909;
   --color-white: #ffffff;
   --color-light-grey: #f3f3f3;
