@@ -50,7 +50,7 @@ html {
   a:visited {
     font-style: italic;
   }
-  a:hover {
+  a:visited:hover {
     text-decoration: underline;
   }
   a:active {
