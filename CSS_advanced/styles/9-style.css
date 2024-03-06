@@ -3,7 +3,7 @@ html {
     scroll-behavior: smooth;
   }
   body {
-    min-height: var(--line-height-base);
+    line-height: var(--line-height-base);
     font-family: var(--font-family-base);
     font-weight: var(--font-weight-regular);
     color: var(--text-color);
@@ -30,6 +30,9 @@ html {
   .section-tagline {
     color: var(--color-primary);
   }
+  a{
+    text-decoration: none;
+  }
   
   :root {
     --color-primary: #d73953;
@@ -49,8 +52,8 @@ html {
     --font-size-xx-large: 4.8rem;
     --font-weight-regular: 400;
     --font-weight-bold: 700;
-    --line-height-small: 1.2rem;
-    --line-height-base: 1.5rem;
-    --line-height-big: 1.8rem;
+    --line-height-small: 1.2;
+    --line-height-base: 1.5;
+    --line-height-big: 1.8;
   }
   
